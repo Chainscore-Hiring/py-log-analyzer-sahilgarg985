@@ -1,6 +1,6 @@
 import pytest
 import asyncio
-
+import Coordinator 
 async def test_normal_processing():
     """Test normal log processing with all workers"""
     coordinator = Coordinator(port=8000)
